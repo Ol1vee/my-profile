@@ -48,14 +48,17 @@ footer{
 	transition:transform 0.5s;	
 }		
 		
-#profile{		
-	border-radius:100%;	
-	zoom:60%;	
-	display:block;	
-	margin:auto;	
-	margin-top:50px;	
-	margin-bottom:130px;	
-}		
+#profile {
+    text-align: center; /* Pour centrer horizontalement */
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+
+#profile img {
+    border-radius: 100%;
+    zoom: 60%;
+    display: inline-block; /* Pour centrer verticalement */
+}
 		
 h2{		
 	font-family: 'Roboto', sans-serif;	
