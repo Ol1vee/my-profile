@@ -57,7 +57,8 @@ footer{
 #profile img {
     border-radius: 100%;
     zoom: 60%;
-    display: inline-block; /* Pour centrer verticalement */
+    display: block; /* Pour centrer horizontalement */
+    margin: 0 auto; /* Pour centrer horizontalement */
 }
 		
 h2{		
